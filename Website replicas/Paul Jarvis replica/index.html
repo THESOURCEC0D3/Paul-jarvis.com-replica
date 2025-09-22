@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A replica of Paul Jarvis's website">
+    <meta name="author" content="Joathan Precious">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&family=Wix+Madefor+Display:wght@400..800&display=swap" rel="stylesheet">
+    <title>Paul Jarvis Replica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="logo">
+        <h1>Consistency in purpose.<br>Confidence in strategy</h1>
+        </section>
+        <nav>
+              <div class="sidebar">
+                <ul>
+                    <li onclick=hideSidebar()><a href="#"><img src=".\images\close_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">File Share</a></li>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Program List</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+                  <div class="login">
+            <img src="./images/user.svg" alt="user-icon">
+   
+                <div class="login-text">
+                    <p>Log in</p>
+                </div>
+        </div>
+            </div>
+
+            <div id="top-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">File Share</a></li>
+                </ul>
+            </div>
+            <div id="bottom-nav">
+                <ul>
+                    <li><a href="#">Members</a></li>
+                    <li><a href="#">Program List</a></li>
+                    <li><a href="#">Resources</a></li>
+                    <li onclick="showSidebar()" id="menu"><a><img src=".\images\menu_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.svg"></a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="login">
+            <img src="./images/user.svg" alt="user-icon">
+   
+                <div class="login-text">
+                    <p>Log in</p>
+                </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="hero">
+            <div class="child text">
+                <h2>Listen<br>Educate<br>Guide</h2>
+                <h4>Ready for advice that starts with listening and ends in action?</h4>
+                <a href="#">Begin Your PATH</a>
+            </div>
+            <div class="child vid">
+                <video controls muted loop>
+                    <source src="..\videos\building.mp4" type="video/mp4">
+                    <source src="..\videos\building.webm" type="video/webm">
+                </video>
+            </div>
+        </section>
+
+        <section class="blog-section">
+            <h2>Blog</h2>
+            <div class=" blog container">
+            <div class="blogs">
+                <div class="img-section child">
+                    <img src=".\images\img1.avif" alt="picture with friends">
+                </div>
+
+                <div class="img-description child">
+
+                    <div class="main-description">
+                    <span>paul -</span>
+                    <h2>Stop, Collaborate, and Listen - What we can learn from vanilla Ice</h2>
+                    <p>It was early November 2009, and I was in Las Vegas with my wife and friends, celebrating two golden birthdays and cheering on the ARSENAL</p>
+                    </div>
+
+                    <div>
+                    <hr>
+                    <div class="below-hr">
+                        <span>1 view</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+</svg>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="blogs">
+                <div class="img-section child">
+                    <img src=".\images\img2.avif" alt="people driving a tractor">
+                </div>
+                <div class="img-description child">
+
+                    <div class="main-description">
+                        <span>Paul -</span>
+                        <h2>Tariffs, Tractors, and a Shoelace: Wht Footloose Teaches Us About Trade Policy and Financial Strategy</h2>
+                        <p>There's a moment in Footloose -yes,
+                            the 1984 dance-fueled drama packed with teenage rebellion and a full-throttle Kenny Loggins...</p>
+                    </div>
+
+                    <div>
+                        <hr>
+                        <div class="below-hr">
+                            <span>2 views</span>
+                            <div class="likes">
+                                <span>1</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+</svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <div class="division"></div>
+
+        <section class="about-section">
+            
+            <div class="about-text child">
+            <h2>About Paul Jarvis</h2>
+            <p>Paul Jarvis is a CERTIFIED FINANCIAL PLANNER &reg; professional
+                dedicated to providing expert wealth building advice to individuals and families.
+                His tailored financial services are designed to help you achieve your financial
+                goals effectively and efficiently.
+            </p>
+            </div>
+
+            <div class="img-section child">
+                <img src=".\images\img3.avif" alt="Image of Paul Jarvis">
+            </div>
+        </section>
+
+        <div class="division"></div>
+
+        <footer>
+            <div class="container">
+            <div>
+                <a>PaulJarvis.com</a>
+            </div>
+            <div class="info">
+                <div class="left">
+                    <div>
+                        <p>701-248-7008</p>
+                        <p>paul@pauljarvis.co</p>
+                    </div>
+                    <div>
+                        <p>109 Roberts St. N.</p>
+                        <p>Fargo, ND 58102</p>
+                    </div>
+                    <hr>
+                    <div class="icons">
+                        <img src=".\images\facebook.avif" alt="facebook-icon">
+                        <img src=".\images\instagram.avif" alt="instagram-icon">
+                        <img src=".\images\x.avif" alt="x-icon">
+                        <img src=".\images\tiktok.avif" alt="tiktok-icon">
+                    </div>
+                </div>
+                <div class="right">
+                    <P>Privacy Policy</P>
+                    <p>Accessibility Statement</p>
+                    <p>Terms &amp; Conditions</p>
+                </div>
+            </div>
+            </div>
+            <div class="last">
+            <p>&copy; 2035 by pauljarvis.com. Powered and secured by <span>Wix</span></p>
+            </div>
+        </footer>
+    </main>
+    <script>
+        function showSidebar(){
+        const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+           const sidebar = document.querySelector('.sidebar')
+        sidebar.style.display = 'none'  
+        }
+    </script>
+</body>
+</html>
